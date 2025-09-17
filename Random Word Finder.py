@@ -26,12 +26,13 @@ def extract_word_from_pdf(pdf_path, keywords):
 
 
 keywords = []
-json_path = r"D:\PDFs\Study Materials\words_dictionary.json"
-pdf_path = r"C:\Users\Shadid\Downloads\The Project Gutenberg eBook of Prid.txt"
+json_path = r"dictionary"
+pdf_path = r"book"
 word_finder(json_path, keywords)
 print(keywords)
 answer = extract_word_from_pdf(pdf_path, keywords)
 print(answer)
+
 
 
 
