@@ -35,7 +35,7 @@ def extract_word_from_pdf(pdf_path: str, keywords: list[str]) -> dict[str, list[
 
 
 if __name__ == "__main__":
-    JSON_PATH = "dictionary.json"
+    JSON_PATH = "words_dictionary.json"
     PDF_PATH = "book.pdf"
 
     keywords = get_random_words(JSON_PATH, count=5)
